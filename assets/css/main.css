@@ -1,0 +1,404 @@
+
+::selection{
+	background-color:#e7e7e7;}
+	
+
+:root {
+--grigio: #e7e7e7;
+--arancione: #d78c22;
+--blu: #2a2f35;
+
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800
+
+.karla-unique{
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body
+{font-family: "Karla", sans-serif;
+ font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;}
+
+
+
+#back_to_top {
+
+    position: fixed;
+    bottom: 50px;
+    right: 15px;
+    cursor: pointer;
+	z-index:10000;
+	color:#333;
+}
+
+	
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+	
+	nav.navbar{
+  background-color: var(--rosso) !important;
+  
+}
+	
+.centratutto{
+	text-align: center;
+}
+	
+
+.coloregiallo{ 
+	background-color: var(--giallo);
+}
+.colorerosso{
+	background-color: var(--rosso);
+}
+.coloreblu{
+	background-color: var(--blu);
+}
+
+
+
+
+
+
+
+	/*carousel*/
+
+
+
+
+.carosellamultiplo .carousel-inner .carousel-item.active, .carosellamultiplo .carousel-inner .carousel-item2.active,
+.carosellamultiplo .carousel-inner .carousel-item-next,
+.carosellamultiplo .carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+
+.carosellamultiplo .carousel-control-prev-icon, .carosellamultiplo .carousel-control-next-icon{
+		text-align:center;}
+	.carosellamultiplo .carousel-control-prev .fas, .carosellamultiplo .carousel-control-next .fas {
+		font-size:25px;}
+.carosellamultiplo .carouselloff .card-img img{
+	width:97% !important;}
+.carosellamultiplo .card-img {
+	text-align: center !important;
+	}
+	.carosellamultiplo .carousel-control-prev {    justify-content: left !important; text-align: left !important; left: -5px !important;}
+	.carosellamultiplo .carousel-control-next {    justify-content: right !important; text-align: right !important;}
+	.carosellamultiplo .card{
+		text-align:left;
+		border:0px !important;}
+
+
+	.carosellamultiplo	.carousel-control-next, .carosellamultiplo .carousel-control-prev
+		.carosellamultiplo .carousel-control-next, .carosellamultiplo .carousel-control-prev{
+			opacity:1 !important;
+			    top: 20% !important;
+    bottom: auto !important;
+
+	}
+
+
+
+	.carosellamultiplo .carousel-control-next-icon, .carosellamultiplo .carousel-control-prev-icon{    width: 2.4rem  !important;
+    height: 2.4rem !important;
+		border-radius: 50%;
+    padding: 3px;
+    border: 3px solid #fff;
+    opacity: 1 !important;
+    background-color: #e76d21;}
+	.carosellamultiplo .carousel-control-next-icon:hover, .carosellamultiplo .carousel-control-prev-icon:hover{  background-color: #30859c;
+		}
+		.carosellamultiplo .carousel-control-prev-icon, .carosellamultiplo .carousel-control-next-icon{
+			background-image:none !important;}
+		
+		
+			.carosellamultiplo h4 a{
+				color:#31859c;
+				font-weight:800;
+				font-size:16px;
+				text-decoration:none;
+				}
+			.carosellamultiplo h4 a:hover{color: #e76d21;}
+		 .carosellamultiplo h4{
+				line-height:0.8em !important;
+				margin-bottom:10px;
+				margin-top:15px;}
+				.date{
+					font-weight:800;
+					font-size:20px;}
+					.testinooff{
+						font-size:14px;
+						font-weight:400;}
+
+				
+			
+				
+
+
+
+ .carosellamultiplo .carousel-inner .carousel-item-next {
+    display: flex;
+}
+
+.carosellamultiplo .carousel-item-next, .carosellamultiplo .carousel-item-prev, .carosellamultiplo .carousel-item.active {
+    display: block;
+}
+
+
+
+/*fine carousel*/
+	
+	
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+
+@media screen and (min-width: 770px) and (max-width: 1999px) {
+
+	.carousel-item 
+  height: 600px;
+}
+}
+
+@media screen and (min-width: 500px) and (max-width: 769px)  {
+
+	.carousel-item {
+  height: 400px;
+}
+}
+	@media screen and (max-width: 499px)  {
+
+	.carousel-item {
+  height: 300px;
+}
+}
+
+
+
+
+.logo{
+    height:130px; margin-top:22px; margin-left:0px;
+}
+
+.rosso{
+    background-color: #2A2F35;
+}
+
+.inizio{
+    background-color: #2A2F35;
+}
+
+.carattere{
+  font-family: "Karla", sans-serif;
+    color: white; font-size: 18px; font-weight: 700; text-transform: uppercase; text-align: start; text-decoration: none;
+}
+
+.slider{
+    width:100%;
+}
+
+.giallo{
+    width: 195px; height: 30px; background-color: white;
+}
+
+.date{
+    font-size: 25px; color: #d78c22; text-transform: uppercase; font-weight: 600;
+}
+
+h1{
+    font-size: 70px !important; text-shadow: 2px 2px 4px #000000; font-weight: 700; margin-bottom: 0px;
+}
+
+
+.alt{
+    font-size: 42px; text-transform: uppercase; color: #3e454f; font-weight: 700; padding-top: 20px;
+}
+
+
+
+.info{
+    
+    font-size:20px; font-weight:600; background-color:#2a2f35; color: white; border-radius:0.1rem; border: 0px;
+    
+}
+
+.buy{
+   
+    font-size:20px; font-weight:600; background-color:#d78c22; color: white; border-radius:0.1rem;border: 0px;
+}
+
+.piove{
+    margin-left: -30px; margin-bottom: -10px;
+}
+
+.scars{
+   margin-bottom: 60px;
+}
+
+.pippo{
+    width: 100%; margin-top: 18px; margin-bottom: 18px;
+     font-weight: 300 !important; color: white;
+}
+
+.when{
+    padding-top:20px;
+    padding-left:20px;
+    font-size: 21px; font-style: italic; font-weight: 500; color: white;
+    margin-bottom: 0px;
+}
+
+.card-text{
+    color: white; font-size: 14px; font-weight: 300 !important;
+}
+
+.girl{
+    height: 100%;
+    width: 100%
+}
+
+.boldi{
+    font-weight: bold;
+}
+
+.scopri{
+  background-color: #d74522;
+    align-items: center !important;
+padding:10px;
+     text-transform: uppercase !important;
+  font-weight: 700 !important;
+  color: white !important;
+    font-size: 20px !important;
+    border:0px;
+}
+
+.scoprito{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carosellamultiplo h4 a{
+    font-size: 17px !important;
+    color: white !important;
+    font-weight: 400 !important; 
+    text-align: center !important;
+    text-transform: uppercase !important;
+    padding:4px;
+}
+
+.orange{
+    text-align: center !important;
+    background-color: #d78c22;
+    border-radius: 0px !important;
+}
+
+.a, .lang{
+    text-decoration: none;
+    color: white;
+}
+
+.ita{
+    color:#d78c22 !important
+}
+
+.boom{
+    text-align: end;
+}
+
+.imgo{
+    width: 100%;
+    height: 100%;
+}
+
+.testinooff{
+    color: #d78c22;
+    background-color: #2a2f35;
+    text-align: right;
+    padding-right: 20px;
+    margin-bottom: 0px;
+}
+
+.text-body-secondary{
+   font-family: "Karla", sans-serif !important;
+    color: #2a2f35 !important;
+    font-size: 14px !important;
+}
+
+.logofoot1{
+    height: 163px;
+}
+
+.nasa{
+   padding-top: 50px;
+}
+
+
+.spacey{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.ow{
+ font-family: "Karla", sans-serif !important;
+    color: #2a2f35 !important;
+    font-size: 14pt !important;
+    font-weight: 800 !important;
+}
+
+.dichiaro{
+     font-family: "Karla", sans-serif !important;
+    color: #2a2f35 !important;
+    font-size: 14pt;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.form-check{
+    padding-top: 20px;
+}
+
+.form-control{
+     font-family: "Karla", sans-serif !important;
+    color: #2a2f35 !important;
+    font-size: 16pt;
+    font-weight: 100;
+    font-style: italic;
+}
+
+p{
+     font-family: "Karla", sans-serif !important;
+    font-size: 14pt; 
+}
+
+.singmy{  background-color: #d78c22;   
+}
+
+.regia{
+    font-size:15px; text-shadow: 2px 2px 4px #000000; font-weight:700; text-align:start;
+}
+.notoria{
+ font-size:15px; text-shadow: 2px 2px 4px #000000; font-weight:400; text-align:start;
+}
+
+.fw-bold{
+    margin-bottom: 5px;
+}
+
+.btn:hover {
+    color: #d78c22;}
+.lang:hover{
+    color: #d78c22;
+}
